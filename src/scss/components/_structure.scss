@@ -1,0 +1,87 @@
+.structure {
+
+  &__title {
+    padding-bottom: 0;
+    margin: 0;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 40px;
+  }
+
+  &__item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    &:nth-child(1n+2) {
+      margin-top: 20px;
+    }
+  }
+
+  &__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: url(../img/vv.jpg);
+    background-repeat: no-repeat;
+    background-size: 240%;
+  }
+
+  &__product {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__product--wrap {
+    margin: 40px 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__lines {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+  }
+
+  &__line {
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius: 14px;
+
+    &--left {
+      &:first-child {
+        width: 150px;
+        transform: rotate(45deg);
+      }
+
+      &:last-child {
+        width: 150px;
+        transform: rotate(-45deg);
+      }
+    }
+
+    &--right {
+      &:first-child {
+        width: 150px;
+        transform: rotate(-45deg);
+      }
+
+      &:last-child {
+        width: 150px;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}

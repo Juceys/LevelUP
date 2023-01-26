@@ -1,0 +1,27 @@
+.button {
+  height: 65px;
+  width: 390px;
+
+  background: #d173c5;
+  font-size: 36px;
+  line-height: 1;
+
+  border: 2px solid white;
+  border-radius: 10px;
+
+  color: white;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+
+  &:hover {
+    color: #d173c5;
+    background: white;
+  }
+
+}

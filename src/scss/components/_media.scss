@@ -1,0 +1,172 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .text {
+    font-size: 24px;
+  }
+
+  .button {
+    width: 260px;
+    font-size: 28px;
+  }
+
+  .demo__item {
+    font-size: 18px;
+  }
+
+  .structure__img {
+    margin: 20px 0;
+    width: 120px;
+    height: 120px;
+  }
+
+
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 576px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .text {
+    font-size: 24px;
+  }
+
+  .content__left {
+    display: flex;
+    align-items: center;
+  }
+
+  .structure__img {
+    margin: 20px 0;
+    width: 100px;
+    height: 100px;
+  }
+
+  .structure__product {
+    width: 200px;
+  }
+
+  .structure__line {
+    display: none;
+  }
+
+  .slider {
+    width: 400px !important;
+    height: 240px !important;
+  }
+
+  .slider__item {
+    width: 400px !important;
+    height: 240px !important;
+    padding: 10px !important;
+  }
+
+  .user {
+    margin-top: 20px !important;
+  }
+
+  .demo__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .demo__text {
+    max-width: 90%;
+  }
+
+  .demo__text p {
+    font-size: 24px;
+  }
+
+  .order__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .order__form {
+    margin: 20px 0;
+  }
+
+  img {
+    margin-left: 25px;
+    width: 70%;
+  }
+}
+
+@media (max-width: (576px)) {
+
+  .container {
+    max-width: 320px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .button {
+    width: 180px;
+    height: 40px;
+    font-size: 24px;
+  }
+
+  .promo .content__right {
+    align-items: flex-end;
+  }
+
+  .promo .content__wrap,
+  .structure__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .structure__product {
+    order: 1;
+  }
+
+  .slider {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .slider__item {
+    font-size: 16px !important;
+    width: 200px !important;
+    height: 200px !important;
+    padding: 10px !important;
+  }
+
+  .reviews .user__name {
+    margin-left: 10px;
+  }
+
+  .user {
+    margin-top: 10px !important;
+  }
+
+  .demo__text ul {
+    flex-wrap: wrap;
+
+    li {
+      padding-bottom: 10px;
+    }
+  }
+
+  .order__form--wrap {
+    width: 310px;
+  }
+}
